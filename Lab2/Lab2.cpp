@@ -5,16 +5,24 @@
 
 using namespace std;
 
-int main()
-{
+int main(){
+cout << "Hello, my name is Saagar and I'm going to solve the equation:" << endl;
+cout << "Ax + B = 0" << endl;
+cout << "For x" << endl;
+
     float A;
     float B;
     float X;
     cout << "Please enter a value for A: ";
     cin >> A;
-    cout << "A=" << A << endl;
-    B = (A * 4) + 1;
-    cout << "And B=" << B << endl;
+    cout << "Please enter a value for B:";
+    cin >> B;
+    cout << "Solving for " << A << "x+" << B <<  " for x..." << endl;
+    X = -B/A;
+    cout << "The answer is:" << endl;
+    cout << "x=" << X << endl;
+    cin >> X;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
